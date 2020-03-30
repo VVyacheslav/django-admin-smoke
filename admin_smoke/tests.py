@@ -17,6 +17,9 @@ from django.utils.decorators import classproperty
 from django.utils.translation import gettext_lazy as _
 
 second = timedelta(seconds=1)
+minute = timedelta(minutes=1)
+hour  = timedelta(hours=1)
+day = timedelta(days=1)
 
 M = TypeVar('M', bound=models.Model)
 
